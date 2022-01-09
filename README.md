@@ -11,3 +11,4 @@ https://developer.x-plane.com/code-sample/register-custom-dataref-in-dataref-edi
 https://developer.x-plane.com/code-sample/custom-command-with-custom-dataref/
 
 https://forums.x-plane.org/index.php?/forums/topic/113127-create-custom-dataref/
+
