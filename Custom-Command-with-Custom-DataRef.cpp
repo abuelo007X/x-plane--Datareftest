@@ -18,7 +18,7 @@
  
 #ifndef XPLM200
   #error This example requires the v2.0 SDK or newer
-#endif
+ #endif
  
  #include "XPLMPlugin.h"
  #include "XPLMDisplay.h"

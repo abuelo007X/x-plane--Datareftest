@@ -4,7 +4,8 @@
             "name": "GCC",
             "includePath": [
                 "${workspaceFolder}/**",
-                "E:\\Development\\SDKs\\X-plane\\SDK303\\CHeaders\\**"
+                "E:\\Development\\SDKs\\X-plane\\SDK303\\CHeaders\\XPLM",
+                "E:\\Development\\SDKs\\X-plane\\SDK303\\CHeaders\\Widgets"
             ],
             "defines": [
                 "_DEBUG",

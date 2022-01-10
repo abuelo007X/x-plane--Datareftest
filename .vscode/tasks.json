@@ -1,0 +1,41 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "C/C++: g++.exe build active file",
+			"command": "C:\\msys64\\mingw64\\bin\\g++.exe",
+			"args": [
+				"-fdiagnostics-color=always",
+				"-g",
+				"${file}",
+				"-pthread",
+				"-shared",
+				"-LC:\\Users\\marco\\Development\\SDKs\\X-plane\\SDK303\\Libraries\\Win",
+				"-IE:\\Development\\SDKs\\X-plane\\SDK303\\CHeaders\\XPLM",
+				"-IE:\\Development\\SDKs\\X-plane\\SDK303\\CHeaders\\Widgets",
+				"-Wl,Opengl32.lib,odbc32.lib,odbccp32.lib,XPLM_64.lib,XPWidgets_64.lib,--subsystem,windows",
+				"-DIBM=1",
+				"-DXPLM200=1",
+				"-DXPLM201=1",
+				"-DXPLM300=1",
+				"-DXPLM301=1",
+				"-DXPLM302=1",
+				"-DXPLM303=1",
+				"-o",
+				"${fileDirname}\\${fileBasenameNoExtension}.xpl"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "compiler: C:\\msys64\\mingw64\\bin\\g++.exe"
+		}
+	]
+}
