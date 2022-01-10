@@ -4,21 +4,30 @@
             "name": "GCC",
             "includePath": [
                 "${workspaceFolder}/**",
-                "C:\\Users\\marco\\Development\\SDKs\\X-plane\\SDK303\\CHeaders\\**"
+                "E:\\Development\\SDKs\\X-plane\\SDK303\\CHeaders\\**"
             ],
             "defines": [
                 "_DEBUG",
                 "UNICODE",
-                "_UNICODE"
+                "_UNICODE",
+                "IBM 1",
+                "XPLM200 1",
+                "XPLM201 1",
+                "XPLM300 1",
+                "XPLM301 1",
+                "XPLM302 1",
+                "XPLM303 1"
             ],
             "compilerPath": "C:\\msys64\\mingw64\\bin\\gcc.exe",
             "cStandard": "gnu17",
             "cppStandard": "gnu++17",
             "intelliSenseMode": "windows-gcc-x64",
             "compilerArgs": [
+                "-o win.xpl",
+                "-pthread",
+                "-shared",
                 "-B C:\\Users\\marco\\Development\\SDKs\\X-plane\\SDK303\\Libraries\\Win",
-                "-Wl,Opengl32.lib,odbc32.lib,odbccp32.lib,XPLM_64.lib,XPWidgets_64.lib",
-                "-pthread"
+                "-Wl,Opengl32.lib,odbc32.lib,odbccp32.lib,XPLM_64.lib,XPWidgets_64.lib,--subsystem,windows"
             ]
         }
     ],
