@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "name": "GCC",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:\\Users\\marco\\Development\\SDKs\\X-plane\\SDK303\\CHeaders\\**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "C:\\msys64\\mingw64\\bin\\gcc.exe",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "windows-gcc-x64",
+            "compilerArgs": [
+                "-B C:\\Users\\marco\\Development\\SDKs\\X-plane\\SDK303\\Libraries\\Win",
+                "-Wl,Opengl32.lib,odbc32.lib,odbccp32.lib,XPLM_64.lib,XPWidgets_64.lib",
+                "-pthread"
+            ]
+        }
+    ],
+    "version": 4
+}
